@@ -1,0 +1,12 @@
+TEXT()
+
+The Excel TEXT Function[1] is used to convert date/numbers to text within a spreadsheet. 
+Essentially, the function will convert a date/numeric value into a text string. 
+
+
+SYNTAX:
+==> =TEXT(start cell: end cell, "dd/mm/yyyy")
+
+
+EXAMPLE:
+==> =TEXT(H2:H10, "dd/mm/yyyy")

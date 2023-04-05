@@ -1,0 +1,14 @@
+TRIM Function (It is typed =TRIM)
+
+The TRIM function is inbuilt/premade in Excel and used to remove irregular text spacing. 
+Note: Irregular spacing is unnecessary spacing within the dataset that can occur before, after or between text or numbers within a cell.
+
+But, TRIM function keeps single spaces between words.
+
+
+SYNTAX:
+==> =TRIM(start cell:end cell)
+
+EXAMPLE:
+==> =TRIM(C2:C10)
+

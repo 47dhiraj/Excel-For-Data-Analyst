@@ -1,0 +1,12 @@
+LEFT Function (It is typed =LEFT)
+
+The LEFT function is used to retrieve a chosen amount of characters, counting from the left side of an Excel cell. 
+The chosen number has to be greater than 0 and is set to 1 by default.
+
+
+SYNTAX:
+==>     =LEFT(start cell:end cell, number of characters)
+
+
+EXAMPLE:
+==>     =LEFT(B2:B10, 3)

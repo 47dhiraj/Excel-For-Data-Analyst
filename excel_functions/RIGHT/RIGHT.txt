@@ -1,0 +1,12 @@
+RIGHT Function (It is typed =RIGHT)
+
+The RIGHT function is used to retrieve a chosen amount of characters, counting from the right side of an Excel cell. 
+The chosen number has to be greater than 0 and is set to 1 by default.
+
+
+SYNTAX:
+==> =RIGHT(start cell:end cell, number of characters)
+
+
+EXAMPLE:
+==> =RIGHT(A2:A10, 1)

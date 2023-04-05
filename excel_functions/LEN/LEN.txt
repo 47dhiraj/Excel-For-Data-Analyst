@@ -1,0 +1,9 @@
+LEN returns the length/number of characters in a text string. 
+
+
+Syntax :
+==> =LEN(text)
+
+
+Example :
+==> =LEN("apple")
