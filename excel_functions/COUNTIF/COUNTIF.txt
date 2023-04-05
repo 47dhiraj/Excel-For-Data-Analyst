@@ -1,0 +1,23 @@
+COUNTIF Function (It is typed =COUNTIF)
+
+The COUNTIF function is a inbuilt/premade function in Excel, which counts cells as specified condition.
+
+
+SYNTAX:
+==> =COUNTIF(start cell:end cell, criteria)
+
+
+How to use the =COUNTIF function ??
+
+    Select a cell
+    Type =COUNTIF
+    Double click the COUNTIF command
+    Select a range
+    Type ,
+    Select a cell (the criteria, the value that you want to count)
+    Hit enter
+
+
+EXAMPLE:
+==> =COUNTIF(G2:G10,">45000")
+

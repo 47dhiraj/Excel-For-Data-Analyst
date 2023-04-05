@@ -1,0 +1,15 @@
+DAYS :  Returns the number of days between two dates.
+
+
+NOTE: DAYS function can also handle dates in text format, as long as the date is recognized by Excel.
+EXAMPLE ==> =DAYS("1-Mar-21","2-Mar-21") 
+
+
+SYNTAX:
+==> =DAYS(end_date, start_date)
+
+
+EXAMPLE:
+==> =DAYS(I2,H2)
+
+

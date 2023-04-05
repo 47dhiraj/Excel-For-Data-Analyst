@@ -1,0 +1,19 @@
+COUNTIFS Function (It is typed =COUNTIFS)
+
+The COUNTIFS function is a premade function in Excel, which counts cells in a range based on one or more true or false condition (i.e based on multiple conditions).
+
+
+SYNTAX:
+==> =COUNTIFS(criteria_range1, criteria1, [criteria_range2, criteria2], ...)
+
+
+The conditions are referred to as critera1, criteria2, .. and so on, which can check things like:
+
+    If a number is greater than another number >
+    If a number is smaller than another number <
+    If a number or text is equal to something =
+
+
+
+EXAMPLE:
+==> =COUNTIFS(A2:A10,">1005",E2:E10,"Male")

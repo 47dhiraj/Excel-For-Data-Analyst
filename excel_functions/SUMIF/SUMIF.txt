@@ -1,0 +1,23 @@
+SUMIF Function (It is typed =SUMIF)
+
+The SUMIF function is a premade function in Excel, which calculates the sum of values in a range based on a true or false condition.
+
+
+SYNTAX:
+==>     =SUMIF(range, criteria, [sum_range])
+
+
+The condition is referred to as criteria, which can check things like:
+
+    If a number is greater than another number >
+    If a number is smaller than another number <
+    If a number or text is equal to something =
+
+    The [sum_range] (optional parameter) is the range where the function calculates the sum.
+
+    Note: The [sum_range] is optional.
+
+
+EXAMPLE:
+==> =SUMIF(G2:G10,">50000")
+

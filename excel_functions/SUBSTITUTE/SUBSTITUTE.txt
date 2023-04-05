@@ -1,0 +1,28 @@
+SUBSTITUTE
+
+The SUBSTITUTE function in Excel replaces one or more instances of a given character or text string with a specified character(s).
+
+
+SYNTAX of SUBSTITUTE function:
+==> SUBSTITUTE(text, old_text, new_text, [instance_num])
+
+
+The first three arguments are required and the last one is optional.
+
+    Text - the original text in which you want to substitute characters. Can be supplied as a test string, cell reference, or a result of another formula.
+    Old_text - the character(s) you actually want to replace/remove.
+    New_text - the new character(s) to replace old_text with/character u want to keep.
+    
+    Instance_num (appearance number) (optional parameter) - the occurrence of old_text you want to replace. If omitted/ignored, every occurrence of the old text will be changed to the new text.
+
+
+
+EXAMPLE with no instance_num(i.e without passing instance_num as parameter):
+==> =SUBSTITUTE(H2:H10,"-","/")
+
+EXAMPLE with 1st instance(only on 1st appearance on every value):
+==> =SUBSTITUTE(H2:H10,"/","-",1)
+
+EXAMPLE with 2nd instance(only on 2nd appearance on every value i.e not on 1st appearance):
+==> =SUBSTITUTE(H2:H10,"/","-",2)
+

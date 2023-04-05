@@ -1,0 +1,24 @@
+COUNT Function (It is typed =COUNT)
+
+The COUNT function is a inbuilt/premade function in Excel, which counts cells with numbers in a specified range.
+
+
+NOTE: The COUNT function only counts cells with numbers, not cells with letters. 
+NOTE: The COUNTA function is better used if the cells have letters.
+
+
+SYNTAX:
+==> =COUNT(start cell:end cell)
+
+
+How to use the =COUNT function ??
+
+    Select a cell
+    Type =COUNT
+    Double click the COUNT command
+    Select a range
+    Hit enter
+
+
+EXAMPLE:
+==> =COUNT(G2:G10)

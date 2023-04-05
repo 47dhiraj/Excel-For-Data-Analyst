@@ -1,0 +1,12 @@
+CONCAT Function (It is typed =CONCAT)
+
+The CONCAT function is used to link multiple cells without adding any delimiters between the combined cell values.
+
+Note: Delimiters are spacing or symbols used to seperate content elements apart from each other.
+
+
+SYNTAX:
+==> =CONCAT(cell1, delimiter, cell2)
+
+EXAMPLE:
+==> =CONCAT(B2," ",C2)              // middle ma auta space as a delimiter pani rakheko

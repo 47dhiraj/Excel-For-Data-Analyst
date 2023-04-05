@@ -1,0 +1,21 @@
+SUM Function (It is typed =SUM)
+
+The SUM function is a inbuilt/premade function in Excel, which adds numbers in a range.
+
+Note: The =SUM function adds cells in a range, both negative and positive.
+
+SYNTAX:
+==> =SUM(start cell:end cell) 
+
+How to use the =SUM function ??
+
+    Select a cell
+    Type =SUM
+    Double click the SUM command
+    Select a range
+    Hit enter
+
+
+EXAMPLE:
+==> =SUM(G2:G10)
+
