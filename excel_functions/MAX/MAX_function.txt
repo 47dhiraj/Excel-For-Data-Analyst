@@ -1,0 +1,27 @@
+MAX Function (It is typed   =MAX)
+
+The MAX function is a inbuilt/premade function in Excel, which finds the highest number in a range.
+
+NOTE : The function ignores cells with text. It will only work for cells with numbers.
+
+
+
+Syntax of   =MAX() function:
+==>     =MAX(number1, number2)
+
+
+
+How to use the  =MAX function ??
+
+==> For Example :
+                    Select a cell (J2)
+                    
+                    Type =MAX
+                    
+                    Double click the MAX command  OR hit/press the "Tab" key from keyboard
+                    
+                    Select a range (H2:H10) (i.e u can select all using mouse or click the starting cell and press ctrl + shift + down arrow)
+                    NOTE: u actually dont' need to close the parenthesis of the function but you can close if you want to.
+
+                    Hit enter & now u will get the maximum value.
+

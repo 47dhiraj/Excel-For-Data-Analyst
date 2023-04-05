@@ -1,0 +1,19 @@
+IF Function (It is typed =IF)
+
+The IF function is a inbuilt/premade function in Excel, which returns values based on a true or false condition.
+
+It has 3 parts.
+
+SYNTAX of IF():
+                ==> =IF(logical_test, [value_if_true], [value_if_false])
+
+Where,
+logical_test means the testing condition, which can check things like:
+
+    If a number is greater than another number >
+    If a number is smaller than another number <
+    If a number or text is equal to something =
+
+
+
+For EXAMPLE :   =IF(D2:D10 > 25, "Mature", "Immature")

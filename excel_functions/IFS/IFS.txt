@@ -1,0 +1,23 @@
+IFS Function (It is typed =IFS)
+
+The IFS function is a premade function in Excel, which returns values based on one or more true or false conditions.
+
+It has two or more parts.
+
+SYNTAX : 
+==>  =IFS(logical_test1, value_if_true1, [logical_test2, value_if_true2], [logical_test3; ...)
+
+
+The conditions are referred to as logical_test1, logical_test2, ..., which can check things like:
+
+    If a number is greater than another number >
+    If a number is smaller than another number <
+    If a number or text is equal to something =
+
+    Each condition is connected with a return value.
+
+
+
+EXAMPLE : =IFS(F2:F10 = "Salesman", "Sales", F2:F10 = "Receptionist", "Politeness", F2:F10 = "HR", "Hire Employee")
+
+
