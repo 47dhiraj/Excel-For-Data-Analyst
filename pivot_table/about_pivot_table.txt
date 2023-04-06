@@ -1,0 +1,15 @@
+About Pivot Table :
+    An Excel pivot table is a powerful data analysis tool that allows you to summarize and analyze large amounts of data quickly and easily. 
+    It enables you to create customized tables and charts from a set of data in a few simple steps.
+
+
+
+# Examples Scenario :
+
+Let's say you have a sales data set that includes the following columns: Country, State, Revenue, Cost, Profit, Year, Customer_Gender  etc. 
+
+==> For eg(available in Sheet 1): you want to create a pivot table, that summarizes total revenue, total cost and total profit by each country and their each state.
+
+OR
+
+==> For eg(available in Sheet 3): you want to create a pivot table, that summarizes total revenue of each country by every year.
