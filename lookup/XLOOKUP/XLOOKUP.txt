@@ -1,0 +1,47 @@
+# XLOOKUP (It is typed =XLOOKUP() )
+
+The XLOOKUP function searches a range or an array, and then returns the item corresponding to the first match it finds. 
+If no match exists, then XLOOKUP can return the closest (approximate) match.
+
+
+SYNTAX:
+==> =XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode]) 
+
+
+Argument                Description
+
+lookup_value    ==>     The value to search for.
+(Required)              If omitted, XLOOKUP returns blank cells it finds in lookup_array.
+
+lookup_array    ==>     The array OR range to search.
+(Required)
+
+return_array    ==>     The array or range to return a value.
+(Required)
+
+[if_not_found]  ==>     Where a valid match is not found, return the [if_not_found] text you supply.
+(Optional)              If a valid match is not found, and [if_not_found] is missing, #N/A is returned.
+
+[match_mode]    ==>     Specify the match type:
+(Optional)
+                        0 - Exact match. If none found, return #N/A. This is the by default match mode.
+                        -1 - Exact match. If none found, return the next smaller item.
+                        1 - Exact match. If none found, return the next larger item.
+                        2 - A wildcard match where *, ?, and ~ have special meaning.
+
+[search_mode]     ==>   Specify search order priority
+(Optional)              1 - Search first to last. This is by default search mode.
+                        -1 - Search last to first
+                        2 - Binary Search (Sorted ascending order)
+                        -2 - Binary Search (Sorted descending order)
+
+
+
+
+EXAMPLE of XLOOKUP with single return range/array:
+==> =XLOOKUP(A3,H2:H10,P2:P10)
+
+
+EXAMPLE of XLOOKUP with multiple return range/array:
+==> =XLOOKUP(A3,I2:I10,O2:P10)
+

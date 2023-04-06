@@ -1,0 +1,22 @@
+VLOOKUP (Vertical Lookup)
+
+VLOOKUP is a built-in Excel function that helps you look for a specified value by searching for it vertically across the sheet.
+
+
+SYNTAX for VLOOKUP:
+==> VLOOKUP(lookup_value, table_array, col_index_number,[range_lookup])
+
+
+Where,
+
+    Argument            Description
+
+    lookup_value:       This specifies the value that you want to look up in our data.
+    table_array:        This is the area/location where the values are present in excel.
+    col_index_number:   This specifies the column number from where we need to return the value.
+    range_lookup:       This has two options; if the value is set to FALSE, that means we are looking for an exact match. If the value is TRUE, then we are looking for an approximate match.
+
+
+
+EXAMPLE:
+==> =VLOOKUP(A3,H2:P10,9,FALSE)
