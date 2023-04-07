@@ -1,0 +1,20 @@
+
+Data cleaning is the process of preparing data for analysis by removing or modifying data that is incorrect, incomplete, irrelevant, duplicated, or improperly formatted. 
+
+This data is usually not necessary or helpful when it comes to analyzing data because it may hinder the process or provide inaccurate results.
+
+
+NOTE : Before cleaning dataset, always copy the raw dataset to some different location(internet will be safe). 
+So that, u may need it later as backup.
+
+
+# Various techniques for cleaning the data:
+
+    1) Remove Duplicates (i.e repeated record/row).
+    2) Change the Case of Alphabets in any column u need.
+    3) Filtering, Sorting and fixing errors/correcting.
+    4) Trimming Spaces.
+    5) Changing currency data to numeirc/number.
+    6) Fixing Date issues.
+    7) Paste as value.
+
