@@ -11,10 +11,15 @@ So that, u may need it later as backup.
 # Various techniques for cleaning the data:
 
     1) Remove Duplicates (i.e repeated record/row).
-    2) Change the Case of Alphabets in any column u need.
-    3) Filtering, Sorting and fixing errors/correcting.
-    4) Trimming Spaces.
-    5) Changing currency data to numeirc/number.
-    6) Fixing Date issues.
-    7) Paste as value.
 
+    2) Change the Case of Alphabets in any column u need.
+
+    3) Filtering, Sorting and fixing errors/correcting.
+
+    4) Trimming Spaces.
+
+    5) Changing currency data to numeirc/number.
+
+    6) Fixing Date issues.
+
+    7) Paste as value.

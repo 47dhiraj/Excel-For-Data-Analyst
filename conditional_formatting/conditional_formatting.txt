@@ -3,11 +3,52 @@
 Conditional formatting is used to change the appearance of cells in a range based on your specified conditions.
 The conditions(or criteria) are rules based on specified numerical values or matching text.
 
-
 Conditional formatting makes it easy to highlight certain values or make particular cells easy to identify. 
 Changing the appearance of cells can visually highlight interesting data points for analysis.
 
-
 Conditional Formatting easily spots trends and patterns in your data using colors, bars & icons to visually highlight important values.
 Conditional formatting can help make patterns and trends in your data more apparent.
+
+
+    Note: The web browser version of Excel only offers a selection of built-in conditional formatting options.
+    Note: The Excel Desktop application has the option of creating fully customized conditional formatting rules.
+
+
+
+# Where do you find conditional formatting features on the Excel app ?
+
+    ==> In the " Home " section, U will see "Conditional Formatting" drop down option.
+    ==> From here u can choose, pre given colors, bars, icons etc.
+
+
+# NOTE: U can create your own rule.
+# NOTE: U can manage your own rule.
+# NOTE: U can clear the rule.
+
+
+# How to use Color Scales ?
+
+    ==> First select any column which u want to colorize.
+    ==> Then, Go to "Conditional Formatting" drop down and choose the "Color Scales" option and choose the "Color Rule" which u like.
+
+
+
+
+# Highlight Cells Rules (Conditional Rule):
+
+==> In "Conditional Formatting" drop down option you will find "Highlight Cells Rules" option, click it,.
+And, now u can choose any rule among Multiple give Rules.
+
+    # Most useful Rule among Highlight Cells Rule:
+
+    ==> For Checking duplicate values in the dataset:
+
+        1)  Duplicate Values    ==> It highlight the duplicate values on the selected column.
+                                ==> It also enable user to highlight the unique values on the selected column.
+                            
+    ==> To find/match any particular text in any column:
+
+        2) Text that Contains   ==> It find/matches with cell value having that particular text on the selected column.
+
+
 

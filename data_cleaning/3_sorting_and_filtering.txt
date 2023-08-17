@@ -1,0 +1,17 @@
+
+
+# If u want to filter the dataset then :
+
+==> First select all the data or any column, in which u want to apply filter.
+==> Click "Data" option on the Excel Ribbon tab.
+==> Then, Click "Filter" option.
+
+==> Now u can do some filtering or even sorting any column:
+
+    ==> By selecting only specific column to correct/filter something wrong.
+
+    ==> In similar way like above, u can fix the errors this is present on any column.
+
+    ==> U can use same filtering technique to check if something is Blank in the dataset.
+
+NOTE: U can always clear the filter after u are done, playing with filter.

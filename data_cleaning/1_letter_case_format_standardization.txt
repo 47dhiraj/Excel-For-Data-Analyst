@@ -1,0 +1,41 @@
+
+# Format Standardization :
+
+    ==> Formatting case of the letters
+    ==> Removing unnecessary spaces
+    ==> Checking spelling error
+    ==> making currency to their base value
+    ==> Most of the time, Date can cause issues.
+
+
+# How to change the case of all the cells values of any column ?
+
+    ==> At first create new column, just behind that column which case u want to change.
+
+    ==> So, suppose, u want to make all the letters capital,
+
+    ==> Then, in one cell of that newly created column, write a following formula:
+            
+            SYNTAX:
+                =UPPER(start cell:end cell)
+                    OR
+                =LOWER(start cell:end cell)
+                    OR
+                =PROPER(start cell:end cell)
+
+            Example:
+                =UPPER(C2:C47)
+                    OR
+                =LOWER(C2:C47)
+                    OR
+                =PROPER(C2:C47)
+
+
+    ==> Then, u will see alphabets of the cell being changed to either capital or small case.
+    ==> Now, select that changed cell (eg: D2) to the last cell of range (eg: D47) ie D2:D47.
+
+    ==> Now, press "Ctrl + D" or "Ctrl + Enter".
+
+    ==> Now, u will see all cells value being changed to your desired case.
+
+

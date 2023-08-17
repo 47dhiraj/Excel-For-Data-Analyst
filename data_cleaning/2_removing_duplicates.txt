@@ -1,0 +1,18 @@
+
+
+Duplicate data is any record that inadvertently/accidently/unintentionally/ shares data with another record in a Database. 
+
+Duplicate data is easy to spot and it mostly occurs when transferring data between systems.
+
+
+# How to Remove Duplicate Data ?
+
+    ==> At first, go to "Data" in excel ribbon tab.
+    ==> Then, Click on "Remove Duplicates"
+    ==> Then, "Remove Duplicates" dialog box will appear.
+
+    ==> By default, all the columns, will be ticked.
+
+    ==> so, finally click on "OK" button.
+
+    A pop up message will appear, saying "n duplicate values found and removed: n unique values remain."

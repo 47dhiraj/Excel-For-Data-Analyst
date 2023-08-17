@@ -45,3 +45,15 @@ EXAMPLE of XLOOKUP with single return range/array:
 EXAMPLE of XLOOKUP with multiple return range/array:
 ==> =XLOOKUP(A3,I2:I10,O2:P10)
 
+
+EXAMPLE of XLOOKUP Exact Match:
+==> =XLOOKUP(A3,H2:H10,O2:O10,"NOT FOUND")
+
+
+EXAMPLE of XLOOKUP Wildcard character match:
+
+==> =XLOOKUP("*"&A3,H2:H10,O2:O10,"NOT FOUND", 2)   // "*"&A3 means anything that comes before A3 value is accepted
+
+    OR
+
+==> =XLOOKUP("*"&A3&"*",H2:H10,O2:O10,"NOT FOUND", 2)   // "*"&A3&"*" means anything that comes before and after A3 value is accepted
